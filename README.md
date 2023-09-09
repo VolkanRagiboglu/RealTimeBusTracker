@@ -1,4 +1,4 @@
-RealTimeBusTracker
+# RealTimeBusTracker
 Started with Real-Time Bus Tracker, refactored to Real-Time Bus Tracker and Direction Populator
 
 This project will track the stations between the coordinates that we provide and also improve to populate direction as needed.
