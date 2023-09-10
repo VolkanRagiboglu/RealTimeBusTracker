@@ -1,7 +1,7 @@
 # RealTimeBusTracker
 Started with Real-Time Bus Tracker, refactored to Real-Time Bus Tracker and Direction Populator
 
-This project will track the stations between the coordinates that we provide and also improve to populate direction as needed.
+This project will track the stations between the coordinates that is provided and also improve to populate direction as needed.
 
 Refactoring:
 1. On top of the base bus tracking app, added a different styling by using styles.css
