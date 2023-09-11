@@ -1,26 +1,45 @@
-# RealTimeBusTracker
-Started with Real-Time Bus Tracker, refactored to Real-Time Bus Tracker and Direction Populator
+# Real Time Bus Tracker and Navigation Directions
 
-This project will track the stations between the coordinates that is provided and also improve to populate direction as needed.
+This README file provides an overview of two HTML projects: Real Time Bus Tracker and Navigation Directions. Each project is described separately below.
 
-Refactoring:
-1. On top of the base bus tracking app, added a different styling by using styles.css
-2. Added, a second HTML file for searching by directions and set it to the same center coordinates as the other HTML file
-3. Added async functions in mapdirections.js file to clean up the base code and pars data to html-css
+## Real Time Bus Tracker
 
+### Overview
+The Real Time Bus Tracker project is a simple web application that displays the movement of a bus between MIT and Harvard on a map. It uses Mapbox GL JS for map rendering and animation. The bus moves between predefined stops along the route, and users can initiate the animation to track the bus's movement.
 
-How to install:
-1. Create a repository
-2. Fork the following files down below
-3. Save those files to your local machine
+### Files
+index.html: The main HTML file for the Real Time Bus Tracker.
+styles.css: The CSS file for styling the Real Time Bus Tracker interface.
+mapanimation.js: The JavaScript file responsible for map initialization and bus animation.
 
-How to run:
-Download the following files for the base Bus Tracker app -> index.html - mapanimation.js - styles.css 
-and for the Direction Populator -> index2.html - mapdirections.js
-1. Open up an html file and if you're using Visual Studio Code, open it on a browser
-2. If you want to add/edit styling, check the styles.css file in your IDE
-3. For Testing some of the functions go to .js files for both animation and directions
-4. Reminder that, for future references and improvements, always use a ReadMe file to document your work
+### Usage
 
+Open index.html in a web browser.
+Click the "Show stops between MIT and Harvard" button to start the bus animation.
+The bus marker will move along predefined stops on the map.
 
-License: MIT Licenses
+## Navigation Directions
+
+### Overview
+The Navigation Directions project is a web application that provides directions for navigating between two points on a map. It uses Mapbox GL JS for map rendering and Mapbox GL Directions for routing and navigation instructions.
+
+### Files
+
+navigation.html: The main HTML file for the Navigation Directions.
+mapdirections.js: The JavaScript file responsible for map initialization and navigation directions.
+
+### Usage
+
+Open navigation.html in a web browser.
+Enter your starting and destination locations in the input fields.
+Click the "Get Directions" button to receive navigation instructions.
+The map will display the route between the two locations with turn-by-turn directions on the left sidebar.
+
+### Note
+
+You will need an internet connection to access map data and directions.
+Both projects use Mapbox GL JS and require a valid Mapbox access token. You can replace the placeholder token with your own in the JavaScript files if needed.
+
+For any further customization or development, refer to the Mapbox documentation: Mapbox Documentation.
+
+### License: MIT Licenses
