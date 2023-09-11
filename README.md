@@ -18,7 +18,7 @@ Open index.html in a web browser.
 Click the "Show stops between MIT and Harvard" button to start the bus animation.
 The bus marker will move along predefined stops on the map.
 
-## Roadmap of Future Improvements
+### Future Improvements
 In future updates, we plan to:
 - Enhance the user interface for better interactivity.
 - Integrate real-time bus data from a public transit API.
@@ -41,7 +41,7 @@ Enter your starting and destination locations in the input fields.
 Click the "Get Directions" button to receive navigation instructions.
 The map will display the route between the two locations with turn-by-turn directions on the left sidebar.
 
-## Roadmap of Future Improvements
+### Future Improvements
 In future updates, we plan to:
 - Implement voice-guided navigation.
 - Allow users to save and share routes.
