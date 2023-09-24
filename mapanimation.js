@@ -45,4 +45,8 @@ const busStops = [
     counter = 0;
     move();
   }
+
+ function openLinkInNewTab(url) {
+    window.open(url, '_blank');
+  }
   
